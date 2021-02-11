@@ -28,15 +28,21 @@ body {
     flex-wrap: wrap;
 }
 
-.picture img {
+.picture {
     vertical-align: middle;
     background-color: white;
-    width: 70%;
+    width: 78%;
     border-radius: 50%;
     height: auto;
     padding: 10px 10px 0px 10px;
     border: 5px solid #4f5a76;
-    margin-left: -65px; 
+    margin-left: -15px; 
+}
+
+.picture img {
+    width: 100%;
+    border-radius: inherit;
+    filter: grayscale(100%);
 }
 
 .border {
@@ -52,7 +58,7 @@ body {
     border-left-color: #8291a9;
 }
 
-.person-dark .picture img {
+.person-dark .picture  {
     border-color: #8291a9;
 }
 
@@ -60,7 +66,7 @@ body {
     border-left-color: #7f7f7f;
 }
 
-.person-grey .picture img {
+.person-grey .picture {
     border-color: #7f7f7f;
 }
 
@@ -68,7 +74,7 @@ body {
     border-left-color: #3a7a9c;
 }
 
-.person-blue .picture img {
+.person-blue .picture {
     border-color: #3a7a9c;
 }
 
@@ -77,6 +83,17 @@ body {
     color: #4f5a76;
     font-family:  Arial, Helvetica, sans-serif; 
     font-weight: 200; 
+}
+
+.person-name {
+    margin-top: 0;
+    margin-bottom: 5px;
+}
+
+.person-function {
+    margin: 0;
+    font-weight: normal;
+    color: rgb(119, 117, 117);
 }
 
 .name-dark {
@@ -95,6 +112,11 @@ body {
     font-size: 15px;
     color: rgb(119, 117, 117);
     text-align: center;
+}
+
+.description p {
+    width: 165px;
+    margin: 15px auto;
 }
 
 .devider {
