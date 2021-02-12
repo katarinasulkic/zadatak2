@@ -26,6 +26,7 @@ body {
     justify-content:space-evenly;
     text-align: center;
     flex-wrap: wrap;
+    padding-top: 70px;
 }
 
 .picture {
